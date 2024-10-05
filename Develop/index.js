@@ -65,7 +65,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const fileName = 'README.md';
+    const fileName = 'TESTREADME.md';
     const markdownContent = generateMarkdown(data);
     writeToFile(fileName, markdownContent);
   });
