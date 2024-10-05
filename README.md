@@ -8,9 +8,10 @@ This code can help you generate a README.md file fast and easy for any code or p
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
-- [Tests](#tests)
 - [Questions](#questions)
-- [License](#license)
+
+## Contribution
+This code was written by apgash(me) and help from the class repository and google.
 
 ## Usage
 When in your repository or working file go into the command line and type in "node index.js" and as easy as that you will be prompted questions and after answering there will be a "README.md" file in your repository!
