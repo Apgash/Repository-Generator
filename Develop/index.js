@@ -12,7 +12,6 @@ const questions = [
   "Test instructions",
   "GitHub username",
   "Email address",
-  "Table of contents",
   "License",
 ];
 
@@ -59,14 +58,9 @@ inquirer
       message: questions[7],
     },
     {
-      type: "input",
-      name: "contents",
-      message: questions[8],
-    },
-    {
       type: "list",
       name: "license",
-      message: questions[9],
+      message: questions[8],
       choices: ["MIT", "GNU", "Apache", "Mozilla", "Boost", "Unlicense"],
     },
   ])
