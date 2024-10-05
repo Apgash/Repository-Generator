@@ -33,7 +33,9 @@ function renderLicenseSection(license) {
   if (license) {
     return `## License
 
-This project is licensed under the ${license} license. For more information, please visit (${renderLicenseLink(license)}).`;
+This project is licensed under the ${license} license. For more information, please visit (${renderLicenseLink(
+      license
+    )}).`;
   }
   return "";
 }
@@ -70,8 +72,12 @@ ${data.contribution}
 ${data.test}
 
 ## Questions
-If you have any questions, you can contact me through my email [${data.email}](mailto:${data.email})!
-Here is my GitHub where you can check out my other work [${data.github}](https://github.com/${data.github})!
+If you have any questions, you can contact me through my email [${
+    data.email
+  }](mailto:${data.email})!
+Here is my GitHub where you can check out my other work [${
+    data.github
+  }](https://github.com/${data.github})!
 
 ${renderLicenseSection(data.license)}
 `;

@@ -15,6 +15,7 @@ This code was written by apgash(me) and help from the class repository and googl
 
 ## Usage
 When in your repository or working file go into the command line and type in "node index.js" and as easy as that you will be prompted questions and after answering there will be a "README.md" file in your repository!
+and here is a short video showing the code funtioning! (https://app.screencastify.com/v3/watch/t0yDbqt3RU97RP54Q3kL)
 
 ## Questions
 If you have any questions, you can contact me through my email [ashtonvilkosi@gmail.com](mailto:ashtonvilkosi@gmail.com)!
